@@ -1,0 +1,10 @@
+.chart{
+    margin: 1.2rem;
+    padding: 1.2rem;
+    box-shadow:0 0 15px -10px rgb(0, 0, 0, 0.75);
+}
+.chartTitle{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+
+}

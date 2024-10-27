@@ -1,0 +1,62 @@
+.features{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.features_item{
+    flex: 1;
+    margin: 0 1.3rem;
+    padding: 30px;
+    border: .5rem;
+    cursor: pointer;
+    box-shadow:0 0 15px -10px rgb(0, 0, 0, 0.75);
+
+
+}
+.features_title{
+    font-size: 1.3rem;
+
+}
+.features_container{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+
+
+}
+.features_many{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+.features_rite{
+    display: flex;
+    align-items: center;
+    margin-left:20px;
+
+}
+.features_rite_icon{
+    color: green;
+    margin-left: 5px;
+    font-size: 14px;
+
+}
+.features_rite_icon.negative{
+    color: red;
+
+}
+.features_sub{
+    font-size: 15px;
+    color: gray;
+
+}
+
+
+
+
+
+
+
+
+
+
