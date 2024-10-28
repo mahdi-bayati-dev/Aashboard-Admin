@@ -56,7 +56,7 @@ function SideBarLeft() {
                         </li>
                         </Link>
 
-                        <Link to={'./product'} className='link'>
+                        <Link to={'./products'} className='link'>
                         <li className='sideBar_list_item'>
                         <StorefrontIcon className='sideBar_Icon'/>
                         Product

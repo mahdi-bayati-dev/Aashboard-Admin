@@ -1,0 +1,52 @@
+.productList {
+    flex: 4;
+    padding: 20px;
+}
+
+.productListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.productListImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.activeStatus {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: green;
+    background: rgba(0, 128, 0, 0.1);
+}
+
+.inactiveStatus {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: red;
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.productEdit {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    color: white;
+    background-color: #3bbb07;
+    cursor: pointer;
+}
+
+.productListDelete {
+    color: red;
+    cursor: pointer;
+}
+
+.actionButtons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

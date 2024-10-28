@@ -1,0 +1,54 @@
+.widgetsLg {
+    flex: 2;
+    padding: 1.2rem;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 1rem;
+}
+
+.widgetsLgTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.widgetsLgTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widgetsLgTableTh {
+    text-align: left;
+}
+
+.widgetsLgTableUser {
+    display: flex;
+    align-items: center;
+}
+
+.widgetsLgImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.widgetsLgButton {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.widgetsLgButton.Approved {
+    color: #3bb007;
+    background-color: #e5faf2;
+}
+
+.widgetsLgButton.Decline {
+    color: #d95087;
+    background-color: #fff0f1;
+}
+
+.widgetsLgButton.Pending {
+    color: #2a7ade;
+    background-color: #ebf1fe;
+}
