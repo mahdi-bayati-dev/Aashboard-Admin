@@ -19,3 +19,95 @@
     cursor: pointer;
     font-size: 1.1rem;
 }
+
+.productTop{
+    display: flex;
+}
+.productTopLeft,
+.productTopRight{
+    flex: 1;
+
+}
+.productTopRight{
+ padding: 20px;
+ margin: 20px;
+ box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.productInfoTop{
+ display: flex;
+ align-items: center;
+}
+.img_productTop{
+    width: 50px;
+    height: 40px;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+.productName{
+    font-weight: 600;
+}
+.productInfoButton{
+margin-top: 10px;
+}
+.productInfoItem{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+/* end Top */
+
+.productBottom{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.productForm{
+    display: flex;
+    justify-content: space-between;
+}
+.productLeft{
+    display: flex;
+    flex-direction: column;
+}
+.productLeft > label{
+    margin-bottom: 10px;
+    color: gray;
+}
+.productLeft > input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+
+}
+.productLeft > input:focus{
+    outline: none;
+
+
+}
+.productRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.productUploader{
+    display: flex;
+    align-items: center;
+    
+}
+.img_uploader{
+    width: 120px;
+    height: 80px;
+}
+
+.uploader_btn{
+    border: none;
+    color: #fff;
+    background-color: darkblue;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}

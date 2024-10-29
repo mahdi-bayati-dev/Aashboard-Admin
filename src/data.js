@@ -332,6 +332,11 @@ const products = [
     stock: true
   }
 ];
+const ProductsData=[
+  { name: 'Oct', sale: 5000 },
+  { name: 'Nov', sale: 3500 },
+  { name: 'Dec', sale: 4500 }
+];
 
 
   
@@ -350,5 +355,5 @@ const products = [
 
 
 
-  export { xAxisData, users , userAction, usersPage , products};
+  export { xAxisData, users , userAction, usersPage , products, ProductsData};
   
