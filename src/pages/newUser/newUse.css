@@ -1,0 +1,76 @@
+.userBottom {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    width: 77%;
+    height: 50%;
+}
+
+.userForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.userLeft > label {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.userLeft > input {
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.userLeft > input:focus {
+    outline: none;
+}
+
+.userRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.userUploader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.img_uploader {
+    width: 120px;
+    height: 80px;
+}
+.file-upload{
+    cursor: pointer;
+
+}
+
+.uploader_btn {
+    border: none;
+    color: #fff;
+    background-color: darkblue;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}
+.submit-btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
