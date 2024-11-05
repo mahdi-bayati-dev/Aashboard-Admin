@@ -41,7 +41,7 @@ function UserList() {
                             src={params.row.imageUrl} // استفاده از imageUrl به عنوان src
                             alt={params.row.fullName}
                         />
-                        {params.row.fullName}
+                        {params.row.name}
                     </div>
                 </Link>
             )

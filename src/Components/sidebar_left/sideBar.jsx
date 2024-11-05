@@ -61,10 +61,13 @@ function SideBarLeft() {
                         <StorefrontIcon className='sideBar_Icon'/>
                         Product
                         </li></Link>
+                        <Link to={'/newproduct'} className='link'>
                         <li className='sideBar_list_item'>
                         <AttachMoneyIcon className='sideBar_Icon'/>
-                        Transact
-                        </li>
+                        New product
+                        </li></Link>
+
+
                         <li className='sideBar_list_item'>
                         <BarChartIcon className='sideBar_Icon'/>
                         Reports

@@ -1,0 +1,19 @@
+
+.uploader_btn_product{
+    padding: .8rem 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.p_text_product{
+    
+    font-size:1.5rem;
+    font-weight: 600;
+
+
+}

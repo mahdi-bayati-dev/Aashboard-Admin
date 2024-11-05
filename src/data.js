@@ -175,90 +175,7 @@ let xAxisData =[
 ];
 // تمام
 
-// اطلاع کابران در صفحه یوزر
-const usersPage = [
-  {
-      id: 1,
-      fullName: "محمدرضا حسینی",
-      avatar: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100&q=75&fit=crop",
-      isActive: true,
-      totalPurchase: "3,250,000",
-      email:'mahdi-batart@gmail.com'
-  },
-  {
-      id: 2,
-      fullName: "نرگس محمدی",
-      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=75&fit=crop",
-      isActive: false,
-      totalPurchase: "1,780,000",
-      email:'mahdi-batart@gmail.com'
-  },
-  {
-      id: 3,
-      fullName: "امیرحسین کریمی",
-      avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=75&fit=crop",
-      isActive: true,
-      totalPurchase: "4,900,000",
-      email:'mahdi-batart@gmail.com'
-      
-  },
-  {
-      id: 4,
-      fullName: "فاطمه رضایی",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=75&fit=crop",
-      isActive: true,
-      totalPurchase: "2,150,000",
-      email:'mahdi-batart@gmail.com'
-  },
-  {
-      id: 5,
-      fullName: "علی اکبری",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=75&fit=crop",
-      isActive: false,
-      totalPurchase: "850,000",
-      email:'mahdi-batart@gmail.com'
-  },
-  {
-      id: 6,
-      fullName: "مهسا صادقی",
-      avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&q=75&fit=crop",
-      isActive: true,
-      totalPurchase: "5,430,000",
-      email:'mahdi-batart@gmail.com'
-  },
-  {
-      id: 7,
-      fullName: "حسین طاهری",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=75&fit=crop",
-      isActive: true,
-      totalPurchase: "3,780,000",
-      email:'mahdi-batart@gmail.com'
-  },
-  {
-      id: 8,
-      fullName: "زینب موسوی",
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=75&fit=crop",
-      isActive: false,
-      totalPurchase: "1,230,000",
-      email:'mahdi-batart@gmail.com'
-  },
-  {
-      id: 9,
-      fullName: "امیر نوروزی",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=75&fit=crop",
-      isActive: true,
-      totalPurchase: "6,150,000",
-      email:'mahdi-batart@gmail.com'
-  },
-  {
-      id: 10,
-      fullName: "سارا احمدی",
-      avatar: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=100&q=75&fit=crop",
-      isActive: true,
-      totalPurchase: "2,890,000",
-      email:'mahdi-batart@gmail.com'
-  }
-];
+
 
 const products = [
   {
@@ -355,5 +272,5 @@ const ProductsData=[
 
 
 
-  export { xAxisData, users , userAction, usersPage , products, ProductsData};
+  export { xAxisData, users , userAction , products, ProductsData};
   

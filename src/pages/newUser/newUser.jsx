@@ -127,6 +127,7 @@ function NewUser() {
         </div>
 
         <div className="userRight">
+          <p className="p_text_user" >اضافه کردن کاربر</p>
           <div className="userUploader">
             <img className="img_uploader" src={previewUrl} alt="user-img" />
             <label htmlFor="file-upload">
